@@ -1,0 +1,20 @@
+* {
+    margin: 50px;
+}
+
+h1 {
+    /* background-color: chocolate; */
+}
+
+#heading {
+    text-align: center;
+}
+
+.student {
+    font-size: 70px;
+}
+
+h1,
+p {
+    text-decoration: underline;
+}
