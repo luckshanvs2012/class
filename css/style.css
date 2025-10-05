@@ -18,7 +18,7 @@ h1,
 p {
     text-decoration: underline;
 }
-typography {
+.typography {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     letter-spacing: 0.1px;
@@ -78,4 +78,42 @@ typography {
     width: 200px;
     box-shadow: 2px 2px 5px rgb(2, 175, 243);
     /*x y blur color*/
+}
+input[type="text"] {
+    border: 2px solid rgb(0, 255, 115);
+}
+
+ul>li {
+    color: rgb(204, 13, 13);
+}
+
+h1+p {
+    background-color: rgb(142, 19, 158);
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+li:nth-child(2) {
+    background-color: yellow;
+}
+
+div:not(.class1) {
+    border: 2px dashed rgb(255, 0, 191);
+}
+
+.decorated::before {
+    content: "luckshan";
+    color: blue;
+}
+
+.decorated::after {
+    content: "ps5";
+    color: rgb(9, 255, 0);
+}
+
+p::first-letter {
+    font-size: 32px;
+    color: rgb(47, 248, 255);
 }
