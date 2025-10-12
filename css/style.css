@@ -1,0 +1,46 @@
+.static {
+    position: static;
+    border: 1px solid rgba(150, 114, 250, 0.26);
+}
+
+.relative {
+    position: relative;
+    left: 30px;
+    border: 2px solid rgb(141, 179, 37);
+}
+
+.fixed {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(38, 196, 117);
+    border: 2px solid rgb(102, 9, 82);
+}
+
+.parent {
+    position: relative;
+    border: 2px solid rgb(88, 141, 201);
+    height: 300px;
+    width: 300px;
+}
+
+.child {
+    border: 2px solid rgb(128, 0, 0);
+    height: 20px;
+    width: 220px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sticky {
+    position: sticky;
+    top: 50px;
+    border: 5px solid rgb(179, 28, 199);
+    background-color: rgb(11, 123, 131);
+    margin-top: 30px;
+}
+
+.opacity {
+    opacity: 0.8;
+}
